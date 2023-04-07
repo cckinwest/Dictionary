@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>English Dictionary</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="center">
+    <div class="container center">
+      <div class="area">
+        <h1>English Dictionary</h1>
+
+        <input
+          id="query"
+          type="text"
+          name="query"
+          value=""
+          placeholder="Search a word"
+          required
+        />
+
+        <p id="meaning">Type a word and press enter</p>
+
+        <button id="next" type="button" name="button" hidden>Next</button>
+
+        <br />
+
+        <audio id="sound" controls hidden>
+          <source src="" type="audio/mpeg" />
+        </audio>
+
+        <br />
+
+        <button id="reset" type="button" name="button" hidden>Reset</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script/javascript.js"></script>
+  </body>
+</html>
